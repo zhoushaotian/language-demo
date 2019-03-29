@@ -24,6 +24,9 @@
 ####  java
 ####  javascript
 ####  linux
+- [删除文件的前N行.sh](./linux/删除文件的前N行.sh)
+- [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
+- [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
 ####  nodejs
 ####  python
 ####  shell
@@ -38,6 +41,7 @@
 - [只读.sh](./shell/只读.sh)
 - [命令是否存在.sh](./shell/命令是否存在.sh)
 - [字符串substr.sh](./shell/字符串substr.sh)
+- [字符串trim.sh](./shell/字符串trim.sh)
 - [字符串拼接.sh](./shell/字符串拼接.sh)
 - [字符串相等.sh](./shell/字符串相等.sh)
 - [字符串长度.sh](./shell/字符串长度.sh)
