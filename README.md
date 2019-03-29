@@ -23,6 +23,7 @@
 ####  golang
 ####  java
 ####  javascript
+- [文件大小.html](./javascript/文件大小.html)
 ####  linux
 - [删除文件的前N行.sh](./linux/删除文件的前N行.sh)
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
