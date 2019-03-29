@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+package config;
+
+
+service Configuration {
+    rpc getConfiguration (GetConfigurationRequest) returns (GetConfigurationResponse) {}
+}
+
+message GetConfigurationRequest {
+    string name = 1;
+    string language = 2;
+}
+
+message GetConfigurationResponse {
+    string result = 1;
+}
