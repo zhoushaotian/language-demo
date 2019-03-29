@@ -1,4 +1,7 @@
 ### 将所有语言/工具的基本语法和常用代码汇总方便开发
+
+该readme自动生成,请勿手动修改,直接运行 ./awk/生成README目录.sh
+
 ####  awk
 - [if==.sh](./awk/if==.sh)
 - [pid.sh](./awk/pid.sh)
