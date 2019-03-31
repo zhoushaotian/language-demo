@@ -21,6 +21,7 @@
 - [重复多个(开始不是1).html](./emmet/重复多个(开始不是1).html)
 - [重复多个.html](./emmet/重复多个.html)
 ####  golang
+- [语法demo.go](./golang/语法demo.go)
 ####  java
 ####  javascript
 - [文件大小.html](./javascript/文件大小.html)
@@ -28,11 +29,16 @@
 - [删除文件的前N行.sh](./linux/删除文件的前N行.sh)
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
 - [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
+####  nginx
 ####  nodejs
 - [grpc-api.proto](./nodejs/grpc-api.proto)
 - [grpc-client.js](./nodejs/grpc-client.js)
 - [grpc-server.js](./nodejs/grpc-server.js)
 ####  python
+- [for循环.py](./python/for循环.py)
+- [if判断.py](./python/if判断.py)
+- [基本代码demo.py](./python/基本代码demo.py)
+- [字符串.py](./python/字符串.py)
 ####  shell
 - [case.sh](./shell/case.sh)
 - [for循环.sh](./shell/for循环.sh)
@@ -55,3 +61,5 @@
 - [是否是文件.sh](./shell/是否是文件.sh)
 - [是否是文件夹.sh](./shell/是否是文件夹.sh)
 - [遍历文件.sh](./shell/遍历文件.sh)
+
+[Learn-X-in-Y-minutes](https://learnxinyminutes.com/)

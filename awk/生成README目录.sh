@@ -13,3 +13,6 @@ for file in `ls ..`; do
         ls -lh $folder|awk 'NF > 2 {print "- ["$9"]""("".""/"file"/"$9")"}' file=$file >> ../$README
      fi
 done
+
+echo    ""  >> ../README.md
+echo "[Learn-X-in-Y-minutes](https://learnxinyminutes.com/)" >> ../README.md
