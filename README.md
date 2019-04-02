@@ -24,12 +24,15 @@
 - [语法demo.go](./golang/语法demo.go)
 ####  java
 ####  javascript
+- [中文大写人民币.js](./javascript/中文大写人民币.js)
 - [文件大小.html](./javascript/文件大小.html)
+- [英文金额.js](./javascript/英文金额.js)
 ####  linux
 - [删除文件的前N行.sh](./linux/删除文件的前N行.sh)
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
 - [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
 ####  nginx
+- [负载均衡.conf](./nginx/负载均衡.conf)
 ####  nodejs
 - [grpc-api.proto](./nodejs/grpc-api.proto)
 - [grpc-client.js](./nodejs/grpc-client.js)
