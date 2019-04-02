@@ -32,6 +32,7 @@
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
 - [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
 ####  nginx
+- [常用命令.md](./nginx/常用命令.md)
 - [负载均衡.conf](./nginx/负载均衡.conf)
 ####  nodejs
 - [grpc-api.proto](./nodejs/grpc-api.proto)
