@@ -45,17 +45,47 @@ console.log(treeView(['a', 'b', 'c', {name: 'd', children: ['ss', 'ddd']}]));
 
 console.log('****');
 console.log(treeView([
-    'folder',
-    'ddd',
-    'dddddcd', {
-        name: 'wewewe',
-        children: [
-            'a',
-            {name: 'caowei', children: ['xxx', 'uuuu']},
-            'b',
-            'c',
-            {name: 'caowei', children: ['xxx', 'uuuu']}]
-    }, 'pk', {name: 'xxxsdf', children: ['dddd']}, 'yes', {name: 'caowei', children: ['xxx', 'uuuu']}]));
+    "folder",
+    "ddd",
+    "dddddcd",
+    {
+        "name": "wewewe",
+        "children": [
+            "a",
+            {
+                "name": "caowei",
+                "children": [
+                    "xxx",
+                    "uuuu"
+                ]
+            },
+            "b",
+            "c",
+            {
+                "name": "caowei",
+                "children": [
+                    "xxx",
+                    "uuuu"
+                ]
+            }
+        ]
+    },
+    "pk",
+    {
+        "name": "xxxsdf",
+        "children": [
+            "dddd"
+        ]
+    },
+    "yes",
+    {
+        "name": "caowei",
+        "children": [
+            "xxx",
+            "uuuu"
+        ]
+    }
+]));
 
 // ├── folder
 // ├── ddd
@@ -80,30 +110,43 @@ console.log(treeView([
 
 console.log('****');
 
-console.log(treeView([{
-    name: 'Container', children:
-        [
+console.log(treeView([
+    {
+        "name": "Container",
+        "children": [
             {
-                name: 'Stage', children: [
-                    'Stage-Header',
+                "name": "Stage",
+                "children": [
+                    "Stage-Header",
                     {
-                        name: 'Stage-Main',
-                        children: [
+                        "name": "Stage-Main",
+                        "children": [
                             {
-                                name: 'GridView', children: [
+                                "name": "GridView",
+                                "children": [
                                     {
-                                        name: 'DraggableGrid', children: [{
-                                            name: 'GridNode', children: [
-                                                'ScaffoldStart',
-                                                {
-                                                    name: 'GridNodeContent', children: [
-                                                        'IndentStart',
-                                                        {name: 'Content', children: ['ContentRenderer']}
-                                                    ]
-                                                },
-                                                'ScaffoldEnd'
-                                            ]
-                                        }]
+                                        "name": "DraggableGrid",
+                                        "children": [
+                                            {
+                                                "name": "GridNode",
+                                                "children": [
+                                                    "ScaffoldStart",
+                                                    {
+                                                        "name": "GridNodeContent",
+                                                        "children": [
+                                                            "IndentStart",
+                                                            {
+                                                                "name": "Content",
+                                                                "children": [
+                                                                    "ContentRenderer"
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "ScaffoldEnd"
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -111,11 +154,18 @@ console.log(treeView([{
                     }
                 ]
             },
-            {name: 'Sidebar', children: ['EmployeeList', 'ProjectOutline']},
-            'ProjectDetail',
-            'CustomerService'
+            {
+                "name": "Sidebar",
+                "children": [
+                    "EmployeeList",
+                    "ProjectOutline"
+                ]
+            },
+            "ProjectDetail",
+            "CustomerService"
         ]
-}]));
+    }
+]));
 
 // └── Container
 //     ├── Stage
