@@ -1,21 +1,20 @@
-const T = '├';
-const vertical = '│';
-const horizontal = '─';
-const L = '└';
-const space = ' ';
-const indent = 1, gap = 2, gapBeforeName = 3;
-//  Linux command real parameters below
-// const indent = 2, const gap = 3, gapBeforeName = 4;
-const breakLine = '\n';
-
-
 function treeView(array, isLast = true, prefix = '') {
+    const T = '├';
+    const vertical = '│';
+    const horizontal = '─';
+    const L = '└';
+    const space = ' ';
+    const indent = 1, gap = 2, gapBeforeName = 3;
+    //  Linux command real parameters below
+    // const indent = 2, const gap = 3, gapBeforeName = 4;
+    const breakLine = '\n';
+
     return array.map((item, index) => {
         let isLast = index === array.length - 1;
         let isString = typeof item === 'string';
         if (!isString) {
             let appendix = `${prefix}${(isLast ? L : T) + horizontal.repeat(indent)}`;
-            let passedPrefix = prefix + (isLast ? (space.repeat(gapBeforeName)) : (vertical + space.repeat(gap)));
+            let passedPrefix = `${prefix}${(isLast ? space.repeat(gapBeforeName) : (vertical + space.repeat(gap)))}`;
             return `${appendix} ${item.name}${breakLine}${treeView(item.children, isLast, passedPrefix)}`;
         } else {
             if (isLast) {
@@ -35,7 +34,7 @@ console.log(treeView(['a', 'b', 'c']));
 // └── c
 
 console.log('****');
-console.log(treeView(['a', 'b', 'c',{name:'d',children:['ss','ddd']}]));
+console.log(treeView(['a', 'b', 'c', {name: 'd', children: ['ss', 'ddd']}]));
 
 // ├── a
 // ├── b
@@ -81,30 +80,41 @@ console.log(treeView([
 
 console.log('****');
 
-console.log(treeView([{name:'Container',children:
+console.log(treeView([{
+    name: 'Container', children:
         [
-            {name:'Stage',children:[
-                'Stage-Header',
+            {
+                name: 'Stage', children: [
+                    'Stage-Header',
                     {
-                        name:'Stage-Main',
-                        children:[
-                            {name:'GridView',children:[
-                                    {name:'DraggableGrid',children:[{name:'GridNode',children:[
+                        name: 'Stage-Main',
+                        children: [
+                            {
+                                name: 'GridView', children: [
+                                    {
+                                        name: 'DraggableGrid', children: [{
+                                            name: 'GridNode', children: [
                                                 'ScaffoldStart',
-                                                {name:'GridNodeContent',children:[
-                                                    'IndentStart',
-                                                        {name:'Content',children:['ContentRenderer']}
-                                                    ]},
+                                                {
+                                                    name: 'GridNodeContent', children: [
+                                                        'IndentStart',
+                                                        {name: 'Content', children: ['ContentRenderer']}
+                                                    ]
+                                                },
                                                 'ScaffoldEnd'
-                                            ]}]}
-                                ]}
+                                            ]
+                                        }]
+                                    }
+                                ]
+                            }
                         ]
                     }
-                ]},
-            {name:'Sidebar',children:['EmployeeList','ProjectOutline']},
+                ]
+            },
+            {name: 'Sidebar', children: ['EmployeeList', 'ProjectOutline']},
             'ProjectDetail',
             'CustomerService'
-            ]
+        ]
 }]));
 
 // └── Container
