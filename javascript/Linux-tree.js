@@ -3,13 +3,9 @@ const vertical = '│';
 const horizontal = '─';
 const L = '└';
 const space = ' ';
-const indent = 1;
-const gap = 2;
-const gapBeforeName = 3;
+const indent = 1, gap = 2, gapBeforeName = 3;
 //  Linux command real parameters below
-// const indent = 2;
-// const gap = 3;
-// const gapBeforeName = 4;
+// const indent = 2, const gap = 3, gapBeforeName = 4;
 const breakLine = '\n';
 
 
