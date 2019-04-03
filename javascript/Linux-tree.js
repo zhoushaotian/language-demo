@@ -3,9 +3,13 @@ const vertical = '│';
 const horizontal = '─';
 const L = '└';
 const space = ' ';
-const indent = 2;
-const gap = 3;
-const gapBeforeName = 4;
+const indent = 1;
+const gap = 2;
+const gapBeforeName = 3;
+//  Linux command real parameters below
+// const indent = 2;
+// const gap = 3;
+// const gapBeforeName = 4;
 const breakLine = '\n';
 
 
@@ -21,7 +25,7 @@ function treeView(array, isLast = true, prefix = '') {
             if (isLast) {
                 return `${prefix}${L}${horizontal.repeat(indent)}${space}${item}`;
             } else {
-                return `${prefix}${T}${horizontal.repeat(2)}${space}${item}`
+                return `${prefix}${T}${horizontal.repeat(indent)}${space}${item}`
             }
         }
     }).join(breakLine);
