@@ -9,8 +9,10 @@ echo    ""  >> ../README.md
 for file in `ls ..`; do
      folder="`pwd`/../$file"
      if [[ -d $folder ]]; then
-        echo "####  ${file}" >> ../$README
-        ls -lh $folder|awk 'NF > 2 {print "- ["$9"]""("".""/"file"/"$9")"}' file=$file >> ../$README
+        if [[ "$file" != "resources" ]]; then
+            echo "####  ${file}" >> ../$README
+            ls -lh $folder|awk 'NF > 2 {print "- ["$9"]""("".""/"file"/"$9")"}' file=$file >> ../$README
+        fi
      fi
 done
 

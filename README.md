@@ -12,6 +12,7 @@
 - [每分钟.sh](./crontab/每分钟.sh)
 ####  emmet
 - [id.html](./emmet/id.html)
+- [zencoding.key](./emmet/zencoding.key)
 - [上级(jquery-end).html](./emmet/上级(jquery-end).html)
 - [兄弟.html](./emmet/兄弟.html)
 - [属性.html](./emmet/属性.html)
@@ -28,16 +29,21 @@
 ####  javascript
 - [Linux-tree.js](./javascript/Linux-tree.js)
 - [isArray.js](./javascript/isArray.js)
+- [react生命周期.md](./javascript/react生命周期.md)
 - [redux.md](./javascript/redux.md)
 - [中文大写人民币.js](./javascript/中文大写人民币.js)
 - [文件大小.html](./javascript/文件大小.html)
 - [英文金额.js](./javascript/英文金额.js)
 ####  linux
+- [cpu信息.sh](./linux/cpu信息.sh)
 - [删除文件的前N行.sh](./linux/删除文件的前N行.sh)
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
 - [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
+- [硬件信息.sh](./linux/硬件信息.sh)
+- [超越root.sh](./linux/超越root.sh)
 ####  markdown
 - [header标题.md](./markdown/header标题.md)
+- [语法.md](./markdown/语法.md)
 ####  nginx
 - [常用命令.md](./nginx/常用命令.md)
 - [负载均衡.conf](./nginx/负载均衡.conf)
@@ -73,5 +79,7 @@
 - [是否是文件夹.sh](./shell/是否是文件夹.sh)
 - [遍历文件.sh](./shell/遍历文件.sh)
 ####  yaml
+####  正则表达式
+- [ipv4.md](./正则表达式/ipv4.md)
 
 [Learn-X-in-Y-minutes](https://learnxinyminutes.com/)

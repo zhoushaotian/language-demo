@@ -9,7 +9,7 @@ else
 fi
 
 name=caowei
-if [ "$name" == "caowei" ]; then
+if [[ "$name" == "caowei" ]]; then
    echo '变量是caowei'
 else
   echo '变量不是caowei'
