@@ -28,6 +28,7 @@
 ####  javascript
 - [Linux-tree.js](./javascript/Linux-tree.js)
 - [isArray.js](./javascript/isArray.js)
+- [redux.md](./javascript/redux.md)
 - [中文大写人民币.js](./javascript/中文大写人民币.js)
 - [文件大小.html](./javascript/文件大小.html)
 - [英文金额.js](./javascript/英文金额.js)
