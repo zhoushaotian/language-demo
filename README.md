@@ -40,7 +40,9 @@
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
 - [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
 - [硬件信息.sh](./linux/硬件信息.sh)
+- [设置DNS.md](./linux/设置DNS.md)
 - [超越root.sh](./linux/超越root.sh)
+- [非root保存文件.md](./linux/非root保存文件.md)
 ####  markdown
 - [header标题.md](./markdown/header标题.md)
 - [语法.md](./markdown/语法.md)
