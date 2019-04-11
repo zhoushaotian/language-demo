@@ -10,6 +10,8 @@
 - [生成README目录.sh](./awk/生成README目录.sh)
 ####  crontab
 - [每分钟.sh](./crontab/每分钟.sh)
+- [每周六.md](./crontab/每周六.md)
+- [语法.md](./crontab/语法.md)
 ####  emmet
 - [id.html](./emmet/id.html)
 - [zencoding.key](./emmet/zencoding.key)
