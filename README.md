@@ -56,6 +56,8 @@
 - [header标题.md](./markdown/header标题.md)
 - [语法.md](./markdown/语法.md)
 ####  nginx
+- [50x.md](./nginx/50x.md)
+- [内置变量.md](./nginx/内置变量.md)
 - [常用命令.md](./nginx/常用命令.md)
 - [负载均衡.conf](./nginx/负载均衡.conf)
 ####  nodejs
