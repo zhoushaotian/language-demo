@@ -57,9 +57,11 @@
 - [语法.md](./markdown/语法.md)
 ####  nginx
 - [50x.md](./nginx/50x.md)
+- [gzip.md](./nginx/gzip.md)
 - [内置变量.md](./nginx/内置变量.md)
 - [常用命令.md](./nginx/常用命令.md)
-- [负载均衡.conf](./nginx/负载均衡.conf)
+- [添加头部信息.md](./nginx/添加头部信息.md)
+- [负载均衡.md](./nginx/负载均衡.md)
 ####  nodejs
 - [grpc-api.proto](./nodejs/grpc-api.proto)
 - [grpc-client.js](./nodejs/grpc-client.js)
