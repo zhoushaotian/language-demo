@@ -44,6 +44,7 @@
 - [硬件信息.sh](./linux/硬件信息.sh)
 - [设置DNS.md](./linux/设置DNS.md)
 - [超越root.sh](./linux/超越root.sh)
+- [递归删除svn目录.sh](./linux/递归删除svn目录.sh)
 - [非root保存文件.md](./linux/非root保存文件.md)
 ####  markdown
 - [header标题.md](./markdown/header标题.md)
