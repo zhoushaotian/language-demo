@@ -62,6 +62,7 @@
 - [if判断.py](./python/if判断.py)
 - [基本代码demo.py](./python/基本代码demo.py)
 - [字符串.py](./python/字符串.py)
+- [读取mongo数据.py](./python/读取mongo数据.py)
 - [读取mysql数据.py](./python/读取mysql数据.py)
 ####  shell
 - [case.sh](./shell/case.sh)
