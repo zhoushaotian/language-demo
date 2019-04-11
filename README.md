@@ -62,6 +62,7 @@
 - [if判断.py](./python/if判断.py)
 - [基本代码demo.py](./python/基本代码demo.py)
 - [字符串.py](./python/字符串.py)
+- [读取mysql数据.py](./python/读取mysql数据.py)
 ####  shell
 - [case.sh](./shell/case.sh)
 - [for循环.sh](./shell/for循环.sh)
@@ -84,6 +85,11 @@
 - [是否是文件.sh](./shell/是否是文件.sh)
 - [是否是文件夹.sh](./shell/是否是文件夹.sh)
 - [遍历文件.sh](./shell/遍历文件.sh)
+####  venv
+- [bin](./venv/bin)
+- [include](./venv/include)
+- [lib](./venv/lib)
+- [pip-selfcheck.json](./venv/pip-selfcheck.json)
 ####  yaml
 ####  正则表达式
 - [ipv4.md](./正则表达式/ipv4.md)
