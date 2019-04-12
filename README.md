@@ -31,8 +31,10 @@
 - [重复多个(开始不是1).html](./emmet/重复多个(开始不是1).html)
 - [重复多个.html](./emmet/重复多个.html)
 ####  git命令
+- [git-hook.md](./git命令/git-hook.md)
 - [stash.md](./git命令/stash.md)
 - [仅当前分支的提交记录.md](./git命令/仅当前分支的提交记录.md)
+- [回退最后一次提交.md](./git命令/回退最后一次提交.md)
 ####  golang
 - [语法demo.go](./golang/语法demo.go)
 ####  java
