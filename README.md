@@ -14,6 +14,8 @@
 - [语法.md](./crontab/语法.md)
 ####  css
 - [[A...][B].md](./css/[A...][B].md)
+- [sticky黏性顶部.md](./css/sticky黏性顶部.md)
+- [伪类.md](./css/伪类.md)
 - [字符溢出点点点.md](./css/字符溢出点点点.md)
 ####  emmet
 - [id.html](./emmet/id.html)
