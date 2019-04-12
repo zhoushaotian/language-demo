@@ -29,6 +29,7 @@
 - [重复多个(开始不是1).html](./emmet/重复多个(开始不是1).html)
 - [重复多个.html](./emmet/重复多个.html)
 ####  git命令
+- [stash.md](./git命令/stash.md)
 - [仅当前分支的提交记录.md](./git命令/仅当前分支的提交记录.md)
 ####  golang
 - [语法demo.go](./golang/语法demo.go)
