@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-str="  this is a long string with space head and tail          "
-trimStr="${str#"${str%%[![:space:]]*}"}"
-echo $trimStr
+spaceString="  this is a long string with space head and tail          "
+trimed="${spaceString#"${spaceString%%[![:space:]]*}"}"
+echo $trimed
