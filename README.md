@@ -104,11 +104,6 @@
 - [是否是文件.sh](./shell/是否是文件.sh)
 - [是否是文件夹.sh](./shell/是否是文件夹.sh)
 - [遍历文件.sh](./shell/遍历文件.sh)
-####  venv
-- [bin](./venv/bin)
-- [include](./venv/include)
-- [lib](./venv/lib)
-- [pip-selfcheck.json](./venv/pip-selfcheck.json)
 ####  yaml
 ####  正则表达式
 - [ipv4.md](./正则表达式/ipv4.md)
