@@ -38,6 +38,7 @@
 ####  java
 ####  javascript
 - [Linux-tree.js](./javascript/Linux-tree.js)
+- [cookie.md](./javascript/cookie.md)
 - [isArray.js](./javascript/isArray.js)
 - [react生命周期.md](./javascript/react生命周期.md)
 - [redux.md](./javascript/redux.md)
@@ -59,7 +60,7 @@
 - [递归删除svn目录.sh](./linux/递归删除svn目录.sh)
 - [非root保存文件.md](./linux/非root保存文件.md)
 ####  markdown
-- [header标题.md](./markdown/header标题.md)
+- [table.md](./markdown/table.md)
 - [语法.md](./markdown/语法.md)
 ####  nginx
 - [50x.md](./nginx/50x.md)
