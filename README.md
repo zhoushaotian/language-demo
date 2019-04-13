@@ -70,6 +70,7 @@
 - [内置变量.md](./nginx/内置变量.md)
 - [常用命令.md](./nginx/常用命令.md)
 - [添加头部信息.md](./nginx/添加头部信息.md)
+- [真实ip.md](./nginx/真实ip.md)
 - [负载均衡.md](./nginx/负载均衡.md)
 ####  nodejs
 - [grpc-api.proto](./nodejs/grpc-api.proto)
