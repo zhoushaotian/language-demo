@@ -39,12 +39,14 @@
 - [语法demo.go](./golang/语法demo.go)
 ####  java
 ####  javascript
+- [0.1+0.2.js](./javascript/0.1+0.2.js)
 - [Linux-tree.js](./javascript/Linux-tree.js)
 - [cookie.md](./javascript/cookie.md)
 - [isArray.js](./javascript/isArray.js)
 - [react生命周期.md](./javascript/react生命周期.md)
 - [redux.md](./javascript/redux.md)
 - [中文大写人民币.js](./javascript/中文大写人民币.js)
+- [判断是否为整数.js](./javascript/判断是否为整数.js)
 - [文件大小.html](./javascript/文件大小.html)
 - [英文金额.js](./javascript/英文金额.js)
 ####  linux
