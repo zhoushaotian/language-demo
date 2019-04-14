@@ -47,7 +47,9 @@
 - [redux.md](./javascript/redux.md)
 - [中文大写人民币.js](./javascript/中文大写人民币.js)
 - [判断是否为整数.js](./javascript/判断是否为整数.js)
+- [参数介绍简体.js](./javascript/参数介绍简体.js)
 - [文件大小.html](./javascript/文件大小.html)
+- [盒子.js](./javascript/盒子.js)
 - [英文金额.js](./javascript/英文金额.js)
 ####  linux
 - [cpu信息.sh](./linux/cpu信息.sh)
