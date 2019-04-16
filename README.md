@@ -45,11 +45,13 @@
 - [isArray.js](./javascript/isArray.js)
 - [react生命周期.md](./javascript/react生命周期.md)
 - [redux.md](./javascript/redux.md)
+- [三个数和为零.js](./javascript/三个数和为零.js)
 - [中文大写人民币.js](./javascript/中文大写人民币.js)
 - [判断是否为整数.js](./javascript/判断是否为整数.js)
 - [参数介绍简体box.js](./javascript/参数介绍简体box.js)
 - [文件大小.html](./javascript/文件大小.html)
 - [盒子.js](./javascript/盒子.js)
+- [节流函数.js](./javascript/节流函数.js)
 - [英文金额.js](./javascript/英文金额.js)
 ####  linux
 - [cpu信息.sh](./linux/cpu信息.sh)

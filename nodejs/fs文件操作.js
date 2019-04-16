@@ -13,4 +13,4 @@ const fs = require('fs');
 
 fs.watch('/Users/tsaowe/Desktop/caowei.txt.log',()=>{
   console.log(arguments);
-})
+});
