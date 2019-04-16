@@ -13,7 +13,7 @@
 - [每周六.md](./crontab/每周六.md)
 - [语法.md](./crontab/语法.md)
 ####  css
-- [[A...][B].md](./css/[A...][B].md)
+- [\[A...\]\[B\].md](./css/\[A...\]\[B\].md)
 - [sticky黏性顶部.md](./css/sticky黏性顶部.md)
 - [伪类.md](./css/伪类.md)
 - [字符溢出点点点.md](./css/字符溢出点点点.md)
@@ -41,8 +41,8 @@
 ####  javascript
 - [0.1+0.2.js](./javascript/0.1+0.2.js)
 - [Linux-tree.js](./javascript/Linux-tree.js)
-- [[]==false.js](./javascript/[]==false.js)
-- [[]==false.md](./javascript/[]==false.md)
+- [\[\]==false.js](./javascript/\[\]==false.js)
+- [\[\]==false.md](./javascript/\[\]==false.md)
 - [cookie.md](./javascript/cookie.md)
 - [isArray.js](./javascript/isArray.js)
 - [react生命周期.md](./javascript/react生命周期.md)
