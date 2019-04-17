@@ -44,6 +44,7 @@
 - [\[\]==false.js](./javascript/\[\]==false.js)
 - [\[\]==false.md](./javascript/\[\]==false.md)
 - [cookie.md](./javascript/cookie.md)
+- [instanceof.js](./javascript/instanceof.js)
 - [isArray.js](./javascript/isArray.js)
 - [react生命周期.md](./javascript/react生命周期.md)
 - [redux.md](./javascript/redux.md)
@@ -55,6 +56,7 @@
 - [盒子.js](./javascript/盒子.js)
 - [节流函数.js](./javascript/节流函数.js)
 - [英文金额.js](./javascript/英文金额.js)
+- [防抖函数.js](./javascript/防抖函数.js)
 ####  linux
 - [cpu信息.sh](./linux/cpu信息.sh)
 - [cut-分割.sh](./linux/cut-分割.sh)
