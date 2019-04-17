@@ -43,6 +43,7 @@
 - [Linux-tree.js](./javascript/Linux-tree.js)
 - [\[\]==false.js](./javascript/\[\]==false.js)
 - [\[\]==false.md](./javascript/\[\]==false.md)
+- [binary-search.js](./javascript/binary-search.js)
 - [cookie.md](./javascript/cookie.md)
 - [instanceof.js](./javascript/instanceof.js)
 - [isArray.js](./javascript/isArray.js)
