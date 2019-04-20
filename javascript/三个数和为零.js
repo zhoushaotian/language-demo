@@ -1,4 +1,5 @@
 let array = [-99, -2, -1, 0, 100, 2, 9, 87];
+array = [-99, -98, -1, 0, 1, 2, 3, 97, 98, 100];
 
 
 /**
@@ -7,7 +8,7 @@ let array = [-99, -2, -1, 0, 100, 2, 9, 87];
  * @param array
  */
 
-function generateTwoSum(target, array) {
+function generateTwoSum(target, array, dict) {
   let first = 0;
   let last = array.length - 1;
   while (first < last) {
@@ -19,6 +20,7 @@ function generateTwoSum(target, array) {
     } else if (sum > -1 * target) {
       last = last - 1;
     } else {
+      let current = [target, firstValue, lastValue].sort((a,b)=>a-b);
       console.log(target, firstValue, lastValue);
       first = first + 1;
       last = last - 1;
@@ -33,3 +35,6 @@ for (let i = 0; i < array.length; i++) {
   let restArr = array.filter((item, index) => index !== i);
   generateTwoSum(target, restArr);
 }
+
+
+
