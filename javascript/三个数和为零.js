@@ -6,6 +6,7 @@ array = [-99, -98, -1, 0, 1, 2, 3, 97, 98, 100];
  *
  * @param target
  * @param array
+ * @param dict
  */
 
 function generateTwoSum(target, array, dict) {
@@ -20,8 +21,8 @@ function generateTwoSum(target, array, dict) {
     } else if (sum > -1 * target) {
       last = last - 1;
     } else {
-      let current = [target, firstValue, lastValue].sort((a,b)=>a-b);
-      console.log(target, firstValue, lastValue);
+      let current = [target, firstValue, lastValue].sort((a,b)=>a-b).join('/');
+      dict[current] = true;
       first = first + 1;
       last = last - 1;
     }
@@ -29,12 +30,13 @@ function generateTwoSum(target, array, dict) {
 }
 
 array = array.sort((a, b) => a - b);
-
+let dict = {};
 for (let i = 0; i < array.length; i++) {
   let target = array[i];
   let restArr = array.filter((item, index) => index !== i);
-  generateTwoSum(target, restArr);
+  generateTwoSum(target, restArr, dict);
 }
+console.log(Object.keys(dict).map(item=>item.split('/').map(item=>item*1)));
 
 
 
