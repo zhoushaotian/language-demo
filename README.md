@@ -47,6 +47,7 @@
 - [cookie.md](./javascript/cookie.md)
 - [instanceof.js](./javascript/instanceof.js)
 - [isArray.js](./javascript/isArray.js)
+- [latestCall.js](./javascript/latestCall.js)
 - [react生命周期.md](./javascript/react生命周期.md)
 - [redux.md](./javascript/redux.md)
 - [三个数和为零.js](./javascript/三个数和为零.js)
@@ -64,10 +65,12 @@
 - [grep-查找.sh](./linux/grep-查找.sh)
 - [join合并交集.sh](./linux/join合并交集.sh)
 - [sed-行操作.sh](./linux/sed-行操作.sh)
+- [修改文件名后缀.sh](./linux/修改文件名后缀.sh)
 - [删除文件的前N行.sh](./linux/删除文件的前N行.sh)
 - [删除文件的后N行.sh](./linux/删除文件的后N行.sh)
 - [去掉文件后缀(固定长度).sh](./linux/去掉文件后缀(固定长度).sh)
 - [硬件信息.sh](./linux/硬件信息.sh)
+- [空格替换.sh](./linux/空格替换.sh)
 - [设置DNS.md](./linux/设置DNS.md)
 - [超越root.sh](./linux/超越root.sh)
 - [递归删除svn目录.sh](./linux/递归删除svn目录.sh)
@@ -95,6 +98,7 @@
 - [for循环.py](./python/for循环.py)
 - [if判断.py](./python/if判断.py)
 - [lambda.py](./python/lambda.py)
+- [package.json](./python/package.json)
 - [基本代码demo.py](./python/基本代码demo.py)
 - [字符串.py](./python/字符串.py)
 - [读取mongo数据.py](./python/读取mongo数据.py)
@@ -127,5 +131,6 @@
 ####  yaml
 ####  正则表达式
 - [ipv4.md](./正则表达式/ipv4.md)
+- [基本语法.md](./正则表达式/基本语法.md)
 
 [Learn-X-in-Y-minutes](https://learnxinyminutes.com/)
