@@ -8,6 +8,13 @@ if [[ $1 = "0" ]]; then
     echo 0str
 fi
 
+# 字符串包含
+string='My long string'
+if [[ $string == *"My long"* ]]; then
+  echo "It's there!"
+fi
+
+
 #           todo 数字
 #           a=10
 #           b=20
