@@ -93,8 +93,11 @@
 - [grpc-api.proto](./nodejs/grpc-api.proto)
 - [grpc-client.js](./nodejs/grpc-client.js)
 - [grpc-server.js](./nodejs/grpc-server.js)
+- [mkv2mp4.js](./nodejs/mkv2mp4.js)
 - [写文件.js](./nodejs/写文件.js)
+- [列举文件.js](./nodejs/列举文件.js)
 - [读文件.js](./nodejs/读文件.js)
+- [重命名文件.js](./nodejs/重命名文件.js)
 ####  python
 - [for循环.py](./python/for循环.py)
 - [if判断.py](./python/if判断.py)
