@@ -40,6 +40,7 @@
 ####  java
 ####  javascript
 - [0.1+0.2.js](./javascript/0.1+0.2.js)
+- [Arguments.js](./javascript/Arguments.js)
 - [Linux-tree.js](./javascript/Linux-tree.js)
 - [\[\]==false.js](./javascript/\[\]==false.js)
 - [\[\]==false.md](./javascript/\[\]==false.md)
