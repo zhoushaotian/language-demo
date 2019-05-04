@@ -35,6 +35,7 @@
 - [stash.md](./git命令/stash.md)
 - [仅当前分支的提交记录.md](./git命令/仅当前分支的提交记录.md)
 - [回退最后一次提交.md](./git命令/回退最后一次提交.md)
+- [追加提交文件.md](./git命令/追加提交文件.md)
 ####  golang
 - [语法demo.go](./golang/语法demo.go)
 ####  java
