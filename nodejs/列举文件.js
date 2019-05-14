@@ -1,4 +1,4 @@
-const testFolder = `${require('os').homedir()}/Desktop/s4/`;
+const testFolder = `${require('os').homedir()}/Desktop/s7/`;
 const fs = require('fs');
 
 fs.readdir(testFolder, (err, files) => {
