@@ -57,6 +57,7 @@
 - [中文大写人民币.js](./javascript/中文大写人民币.js)
 - [判断是否为整数.js](./javascript/判断是否为整数.js)
 - [参数介绍简体box.js](./javascript/参数介绍简体box.js)
+- [小程序.md](./javascript/小程序.md)
 - [数字金额逗号.js](./javascript/数字金额逗号.js)
 - [文件大小.html](./javascript/文件大小.html)
 - [盒子.js](./javascript/盒子.js)
